@@ -1,0 +1,137 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1667;
+    color: #2E2F42;
+    letter-spacing: 0.03em;
+}
+
+.contacts-link,
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link {
+    font-weight: 500;
+    color: #2E2F42
+}
+
+.contacts {
+    font-weight:400;
+    color: #434455;
+}
+
+.footer .logo {
+    color: #F4F4FD;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.footer .logo:hover,
+.footer .logo:focus {
+    color: #404BBF;
+}
+
+a:hover,
+a:focus {
+    cursor: pointer;
+    color: #404BBF;
+}
+
+button:hover,
+button:focus {
+    background-color: #404BBF;
+}
+
+.button-order-service {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-header {
+    background-color: #2E2F42;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+p {
+    color: #434455;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team h2, .team p, .team h3 {
+    text-align: center;
+}
+
+.team li {
+    background-color: #fff;
+}
+
+.portfolio h2 {
+    text-align: center;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer p {
+    color: inherit;
+}
