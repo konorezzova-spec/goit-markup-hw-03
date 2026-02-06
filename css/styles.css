@@ -79,8 +79,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .nav {
     display: flex;
@@ -108,6 +106,8 @@ p {
 }
 .contacts-link,
 .contacts {
+    display: inline-block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -149,18 +149,6 @@ p {
 .hero-title {
     max-width: 496px;
 }
-/* #endregion Hero Header Section */
-
-/* #region Features Section*/
-
-.features-container {
-    flex-direction: column;
-    align-items: center;
-}
-.features-list {
-    display: flex;
-    gap: 24px;
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -173,6 +161,26 @@ p {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/* #endregion Hero Header Section */
+
+/* #region Features Section*/
+
+.features-container {
+    flex-direction: column;
+    align-items: center;
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+.features-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: calc((100% - 72px) / 4);
+    gap: 8px;
+}
+
 /* #endregion Features Section */
 
 /* #region Team Section */
@@ -200,6 +208,8 @@ p {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-info {
+    display: flex;
+    flex-direction: column;
     padding: 32px 16px;
     gap: 8px;
 }
@@ -209,7 +219,7 @@ p {
 .portfolio-container {
     flex-direction: column;
     align-items: center;
-    gap: 67px;
+    gap: 72px;
 }
 .portfolio-list {
     display: flex;
